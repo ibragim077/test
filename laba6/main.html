@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Лабораторная работа №6</title>
+
+    <link rel="stylesheet" href="/main.css">
+
+</head>
+
+
+
+<body>
+
+    <div>
+
+        <header class="header">
+
+            <div class="logo">
+
+               <img src="materials/logo.svg" alt="logo">
+
+             </div>
+             <div class="header_display">
+
+                <img src="materials/profile.svg" alt="profile">
+
+                <div>
+
+                    <a id="enter_link" class="link" href="#">
+                        Войти
+                    </a>
+
+                    <a class="link" href="#">
+                        Зарегистрироваться
+                    </a>
+
+                </div>
+
+            </div>
+
+        </header>
+
+    </div>
+    
+   <div class="overlay" >
+     <div class = "enter_window">
+        
+        <div class = "enter_top">
+             <h3 class = "enter_title">Вход</h3>
+             <img class = "enter_close" src = "materials/Close_button.png">
+        </div>
+        <form class = "enter_content" method="POST">
+            <div class = "login_password">
+                <h4>Логин</h4>
+                <input class = "input_login_password" type = "text">
+            </div>
+
+            <div class = "login_password">
+                <h4>Пароль</h4>
+                <input class = "input_login_password" type = "password">
+            </div>
+
+            <div class = "enter_buttons">
+                <button class = "enter_button" type = "submit">Войти</button>
+                <a class = "password_link">Забыли пароль?</a>
+            </div>
+        </form>
+     </div>
+    </div>
+
+    <h1 id="last_publications" class="list_of_publications">
+        Последние публикации
+    </h1>
+
+    <div class="content">
+
+     <div class="grid">
+
+      <div class="main_publications">
+
+         <div class="row">
+
+          <div class="item" data-categories="Git, Console">
+
+             <img src="materials/post-1.png" class="post_img" alt="post">
+            
+             <div class="content_post">
+
+                 <div class="dicription">
+
+                  <span class="post_name_header">
+                      Работа с Git в Visual Studio Code
+                  </span>
+                  
+                  <span class="post_name">
+                      Один из способов работать с Гитом.
+                  </span>
+
+                 </div>
+ 
+                 <div class="labels">
+
+                    <div class="mini_label">
+
+                        <span class="label_text">
+                            Git
+                        </span>
+
+                    </div>
+
+                    <div class="label">
+
+                        <span class="label_text">
+                            Консоль
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+         <div class="item" data-categories="Figma">
+
+            <img src="materials/post-2.png" class="post_img" alt="post">
+        
+            <div class="content_post">
+
+                <div class="dicription">
+
+                    <span class="post_name_header">
+                        Adobe покупают Фигму. Всё пропало?
+                    </span>
+                    
+                    <span class="post_name">
+                        Не факт, но есть разные мнения.
+                    </span>
+
+                </div>
+
+                <div class="labels">
+
+                    <div class="label">
+
+                        <span class="label_text">
+                            Figma
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+        </div>
+
+        <div class="row">
+
+         <div class="item" data-categories="Карьера, Обучение">
+
+            <img src="materials/post-3.png" class="post_img" alt="post">
+
+            <div class="content_post">
+
+                <div class="dicription">
+
+                    <span class="post_name_header">
+                        Все научились программировать. А дальше-то что?
+                    </span>
+                    
+                    <span class="post_name">
+                        Ученье — свет.
+                    </span>
+
+                </div>
+
+                <div class="labels">
+
+                    <div class="label">
+
+                        <span class="label_text">
+                            Обучение
+                        </span>
+
+                    </div>
+
+                    <div class="label">
+
+                        <span class="label_text">
+                            Карьера
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+         <div class="item" data-categories="Обучение">
+
+            <img src="materials/post-4.png" class="post_img" alt="post">
+
+            <div class="content_post">
+
+                <div class="dicription">
+
+                    <span class="post_name_header">
+                        Мне тяжело учиться, кто поможет?
+                    </span>
+                    
+                    <p class="post_name">
+                        Попали в патовую ситуацию? Тогда кликайте на статью.
+                    </p>
+
+                </div>
+
+                <div class="labels">
+
+                    <div class="label">
+
+                        <span class="label_text">
+                            Обучение
+                        </span>
+
+                    </div>
+    
+                </div>
+
+            </div>
+
+         </div>
+
+        </div>
+    
+        <div class="row">
+
+         <div class="item" data-categories="Карьера, Обучение">
+
+            <img src="materials/post-5.png" class="post_img" alt="post">
+
+            <div class="content_post">
+
+                <div class="dicription">
+
+                    <span class="post_name_header">
+                        Ключевые навыки фронтендеров в 2022
+                    </span>
+                    
+                    <span class="post_name">
+                        Ежегодное исследование рынка от HTML Academy.
+                    </span>
+
+                </div>
+
+                <div class="labels">
+
+                    <div class="label">
+
+                        <span class="label_text">
+                            Обучение
+                        </span>
+
+                    </div>
+
+                    <div class="label">
+
+                        <span class="label_text">
+                            Карьера
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+         <div class="item" data-categories="Новости">
+
+            <img src="materials/post-6.png" class="post_img" alt="post">
+
+            <div class="content_post">
+
+                <div class="dicription">
+
+                    <span class="post_name_header">
+                        Фронтенд-новости
+                    </span>
+                    
+                    <span class="post_name">
+                        WAI-ARIA, новинки HTML-форм и 12 ошибок любого джаваскриптера.
+                    </span>
+
+                </div>
+
+                <div class="labels">
+
+                    <div class="label">
+
+                        <span class="label_text">
+                            Новости
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+        </div>
+
+      </div>
+
+      <form>
+        <button class="Upload_button">Загрузить ещё </button>
+      </form>
+
+     </div>
+
+     <div clas="menu">
+
+        <h2>
+            Рублики
+        </h2>
+
+        <div class="categories">
+
+            <button class="categories_button" data-categories="Обучение">
+                Обучение
+            </button>
+
+            <button class="categories_button" data-categories="Карьера">
+                Карьера
+            </button>
+
+            <button class="categories_button" data-categories="Figma">
+                Figma
+            </button>
+
+            <button class="categories_button" data-categories="Консоль">
+                Консоль
+            </button>
+
+            <button class="categories_button" data-categories="Git">
+                Git
+            </button>
+
+            <button class="categories_button" data-categories="Новости">
+                Новости
+            </button>
+
+        </div> 
+
+     </div>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+
+    <div class="footer_container">
+
+        <div class="footer_links">
+
+            <a class="footer_link" href="#">
+                Об авторе
+            </a>
+
+            <a class="footer_link" href="#">
+                Технологии
+            </a>
+
+        </div>
+
+        <div class="info_blog">
+
+                <span>
+                    © Blog, 2022
+                </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="/main.js"></script>
+<script src="/enter.js"></script>
+
+</body>
+
+</html>

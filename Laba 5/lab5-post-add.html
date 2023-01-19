@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Лабораторная работа №5</title>
+
+    <link rel="stylesheet" href="/lab5-post-add.css">
+
+</head>
+
+
+
+<body> 
+
+    <div>
+
+        <header class="header">
+
+            <div class="logo">
+
+               <img src="materials/logo.svg" alt="logo">
+
+             </div>
+             <div class="header_display">
+
+                <img src="materials/profile.svg" alt="profile">
+
+                <div>
+
+                    <a class="link" href="#">
+                        Войти
+                    </a>
+
+                    <a class="link" href="#">
+                        Зарегистрироваться
+                    </a>
+
+                </div>
+
+            </div>
+
+        </header>
+
+    </div>
+
+    <div class="page">
+
+        <h1>Добавить запись</h1>
+
+        <div class="content">
+
+            <form class = "input_text_head">
+                <h2>Заголовок</h2>
+                <input class="text_head" type = "text" maxlength="255"  required>
+            </form>
+
+            <form class="input_textarea">
+                <h2>Текст</h2>
+                <textarea class="textarea"  required></textarea>
+
+            </form>
+
+            <form class="select_categories">
+                <h2>Выберите катеригорию</h2>
+                <select class="select_categories_input"  required>
+                    <option>Без категории</option>
+                    <option>Обучение</option>
+                    <option>Карьера</option>
+                    <option>Figma</option>
+                    <option>Git</option>
+                    <option>Консоль</option>
+                    <option>Новости</option>
+                </select>
+            </form>
+
+            <form class="input_image">
+                <input id="add_image" class="add_img" type = "file"  accept="image/*">
+                <label for="add_image" >
+                    <img src = "materials/add.png" class = "button_add">
+                    <label class = "text_button">Прикрепить файл изображения</label>
+
+                </label>
+                <img id = "img_file">
+            </form>
+
+            <button class="submit_button">Опубликовать</button>
+        </div>
+
+    </div>
+
+<footer class="footer">
+
+        <div class="footer_container">
+    
+            <div class="footer_links">
+    
+                <a class="footer_link" href="#">
+                    Об авторе
+                </a>
+    
+                <a class="footer_link" href="#">
+                    Технологии
+                </a>
+    
+            </div>
+    
+            <div class="info_blog">
+    
+                    <span>
+                        © Blog, 2022
+                    </span>
+    
+            </div>
+    
+        </div>
+</footer>
+
+<script src="post.js"></script>
+
+</body>
+
+</html>

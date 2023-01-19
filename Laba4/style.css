@@ -1,0 +1,280 @@
+body{
+    background: #F3F3F3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #624C91;
+    padding: 15px 60px;
+
+}
+
+.header_display{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 28px;
+    line-height: 18px;
+}
+
+.list_of_publications {
+    color: black;
+    margin-top: 100px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 3%;
+    margin-left: 60px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 1080px;
+    height: 1296px;
+    margin-bottom: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 807px;
+    height: 1296px;
+    margin-left: 60px;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.list_of_snakes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 807px;
+    height: 392px;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 393.5px;
+    height: 392px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(98, 76, 144, 0.1);
+    border-radius: 5px;
+}
+.content_post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+    width: 393px;
+    height: 188px;
+}
+
+.dicription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    width: 353px;
+    height: 52px;
+}
+
+.post_name_header {
+    width: 353px;
+    height: 24px;
+    font-family: 'Golos Text VF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+ 
+}
+.post_name {
+    width: 353px;
+    height: 24px;
+    font-family: 'Golos Text VF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.post_img {
+    width: 393.5px;
+    height: 204px;
+}
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 68px;
+    height: 32px;
+}
+
+.label{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 12px;
+    gap: 10px;
+
+    width: 87px;
+    height: 32px;
+
+    border: 1px solid #BCB3CE;
+    border-radius: 4px;
+}
+
+.mini_label{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 12px;
+    gap: 10px;
+
+    width: 45px;
+    height: 32px;
+
+    border: 1px solid #BCB3CE;
+    border-radius: 4px;
+}
+
+.label_text{
+    width: 80px;
+    height: 24px;
+    font-family: 'Golos Text VF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #2A1852;
+}
+
+.Upload_button {
+    box-sizing: border-box;
+    width: 807px;
+    height: 60px;
+    border: 3px solid #624C90;
+    border-radius: 7px;
+    font-family: 'Golos Text VF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #624C90;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 233px;
+    height: 194px;
+
+}
+
+.categories_button {
+    font-family: 'Golos Text VF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    cursor: pointer;
+    color: #366AF3;
+}
+
+.footer {
+    width: 1200px;
+    height: 80px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;
+    gap: 40px;
+}
+
+.info_blog {
+    width: 94px;
+    height: 18px;
+    right: 60px;
+    top: 0px;
+
+    font-family: 'Golos Text VF';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #999999;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+
+    width: 203px;
+    height: 19px;
+    left: 60px;
+    top: 0px;
+}
+
+.footer_link {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 76px;
+    height: 19px;
+}
